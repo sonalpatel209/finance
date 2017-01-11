@@ -52,6 +52,7 @@ public class ServerInitializer implements ApplicationRunner {
 				fundreturnreport.setReturnDate(fundReturn.getReturnDate().toString());
 				fundreturnreport.setFundreturn(fundReturn.getReturnper());
 				reportData.add(fundreturnreport);
+				System.out.println(fundreturnreport.toString());
 			}
 		}
 	}
